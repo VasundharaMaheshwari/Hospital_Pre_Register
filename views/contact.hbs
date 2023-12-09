@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #c71313;
+        }
+        header {
+            background-color: #c71313;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            max-height: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2{
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #c71313;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            margin-right: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Information</h1>
+    </header>
+    <div class="container">
+        <form action="\contactblack.html" method="post" class="login-container">
+        <h2>Contact Details</h2>
+        <ul>
+            <li>
+                <label for="names">Name:</label>
+                <input type="text" id="names" name="names">
+            </li>
+            <li>
+                <label for="emailid">Email:</label>
+                <input type="email" id="emailid" name="emailid">
+            </li>
+            <li>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </li>
+        </ul>
+    <div class="timepass">
+        <input type="submit">
+        <a class="button" href="Front.html">Go To Home Page</a>
+    </div> </form>
+    </div>
+    <style>
+        .timepass{
+            text-align: center;
+        }
+        a.button{
+            background-color: #c71313;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: small;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Information</title>
+    <style>
+        body {
+            margin: 100px;
+            padding: 100px;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #FF0000, #880000);
+        }
+
+        .container {
+            background-color: black;            
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Note: You will be logged out on leaving the page.</h1> <br>
+                <h1>Your Information:</h1> <br>
+<h2>Name:</h2>
+<p>First Name: {{{name}}}</p>
+<p>Middle Name: {{{middle_name}}}</p>
+<p>Last Name: {{{last_name}}}</p>     <br>
+<h2>Address:</h2>
+<p>Residential Address: {{{address}}}</p>
+<p>Citizenship Document: {{{citizenship}}}</p>
+<p>UID Assigned By Government On The Document: {{{citiproof}}}</p>
+<p>State: {{{state}}}</p>
+<p>City: {{{city}}}</p>
+<p>Pincode: {{{pincode}}}</p>    <br>
+<h2>Birth Date:</h2>
+<p>{{{birthdate}}}</p>     <br>
+<h2>Age:</h2>
+<p>{{{age}}}</p>    <br>
+<h2>Gender:</h2>
+<p>{{{gender}}}</p>    <br>
+<h2>Email:</h2>
+<p>{{{email}}}</p>    <br>
+<h2>Emergency Contact:</h2>
+<p>{{{emergency}}}</p>    <br>
+<h2>Education Details:</h2>
+<p>Highest Education Qualification: {{{education}}}</p>
+<p>Proof Of Education: {{{eduproof}}}</p>
+<p>UID Number On The Document: {{{edudoc}}}</p>
+<p>Institute Name: {{{institute}}}</p>
+<p>Year Of Graduation: {{{gradyear}}}</p>    <br>
+<h2>Employment Details:</h2>
+<p>Employed By: {{{employer}}}</p>
+<p>Address Of Employment: {{{eaddress}}}</p>
+<p>Branch: {{{branch}}}</p>
+<p>Date Of Employment: {{{edate}}}</p>    <br>
+<h2>Medical Details:</h2>
+<p>Allergies: {{{allergies}}}</p>
+<p>Past Medication History: {{{pastmeds}}}</p>
+<p>Immunization Record: {{{immu}}}</p>
+<p>Blood Group: {{{bloodgrp}}}</p>
+<p>Diet: {{{diet}}}</p>
+<p>Exercising Habits: {{{exercise}}}</p>
+<p>Reproductive History: {{{rh}}}</p>
+<p>Smoking Status: {{{smoke}}}</p>
+<p>Drinking Ststus: {{{alcohol}}}</p>
+<p>Drug Consumption Status: {{{drugs}}}</p>
+<p>Ongoing Medications: {{{meds}}}</p>
+<p>Blood Transfusion History: {{{btransp}}}</p>
+<p>{{{bp}}}</p>
+<p>{{{diabetes}}}</p>
+<p>{{{asthma}}}</p>
+<p>{{{hypertension}}}</p>
+<p>{{{cardiac}}}</p>
+<p>{{{mentalhealth}}}</p>
+<p>{{{anemia}}}</p>
+<p>Family Medical History: {{{fammedhist}}}</p>
+<p>Past Illnesses: {{{illness}}}</p>
+<p>Past Surgeries: {{{surgery}}}</p>
+<p>Past Hospitalization History: {{{hospi}}}</p>
+<p>Additional Medical History: {{{medaddonhist}}}</p> <br>
+<h2>Marital Details:</h2>
+<p>Status: {{{maritalstatus.status}}}</p>
+<p>Name: {{{maritalstatus.spouse.cname}}}</p>
+<p>Age: {{{maritalstatus.spouse.cage}}}</p>
+<p>Contact: {{{maritalstatus.spouse.ccontact}}}</p>    <br>
+<h2>Children Details:</h2>
+<p>Number Of Children: {{{cno.childrenno}}}</p>    <br>
+{{#each cno.childrendetails}}
+    <p>Name: {{this.cname}}</p>
+    <p>Age: {{this.cage}}</p>
+    <p>Contact: {{this.ccontact}}</p>    <br>
+{{/each}}
+{{!-- <p>{{{cno.childrendetails}}}</p> --}}
+<h2>Unique ID:</h2>
+<p>{{{uid}}}</p>
+</div>
+</body>
+</html>
