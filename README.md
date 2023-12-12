@@ -2,6 +2,20 @@
 
 Link to documentation --> https://drive.google.com/drive/folders/1VD4HmIg42Sjo38PU4tlBfjArXiEZe7Yd?usp=sharing
 
+Team Members of the Project:
+1. Vasundhara Maheshwari
+   Profile Links:
+   - https://github.com/VasundharaMaheshwari
+   - https://www.linkedin.com/in/vasundhara-m-2point0/
+2. Shreni Budhale
+   Profile Links:
+   - https://github.com/Shrenisb
+   - https://www.linkedin.com/in/shreni-budhale-284369286/  
+3. Adithya Venkat
+   Profile Links:
+   - https://www.linkedin.com/in/adithya-venkat/
+5. Steffy Fernando
+
 About:
 -----------------------------------------------------------------------------------------------------------------
 Introducing Hospital Pre-Register, our ambitious first attempt at revolutionizing emergency medical care. This visionary initiative is dedicated to providing a bare minimum yet impactful solution for seamless and swift access to vital patient information, transcending traditional boundaries in healthcare.
