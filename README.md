@@ -14,6 +14,7 @@ Team Members of the Project:
 3. Adithya Venkat
    Profile Links:
    - https://www.linkedin.com/in/adithya-venkat/
+   - https://github.com/Adithya-Venkat-dot
 5. Steffy Fernando
 
 About:
